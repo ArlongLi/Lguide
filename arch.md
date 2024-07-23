@@ -22,6 +22,9 @@ bluez bluez-utils
 cups cups-pdf system-config-printer
 print-manager   #kde
 foomatic-db foomatic-db-engine foomatic-db-ppds foomatic-db-nonfree foomatic-db-nonfree-ppds
+
+cups cups-browsed cups-filters cups-pdf foomatic-db foomatic-db-engine foomatic-db-gutenprint-ppds foomatic-db-nonfree foomatic-db-nonfree-ppds foomatic-db-ppds ghostscript gsfonts gutenprint splix system-config-printer
+
 ```
 ## 允许通过PolicyKit进行管理员身份验证
 ```shell
