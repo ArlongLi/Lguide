@@ -59,8 +59,13 @@ sudo update-initramfs -u
 gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons-ng  gnome-shell-extension-gpaste 
 gnome-shell-extension-kimpanel #fcitx5的Gnome
 gnome-shell-extension-bluetooth-quick-connect #Gnome44不需要
+gnome-shell-extension-manager
 
 apt install gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons-ng  gnome-shell-extension-gpaste gnome-shell-extension-kimpanel gnome-console
+```
+# gnome-shell快捷键打开
+```
+kgx
 ```
 
 #NVIDIA
