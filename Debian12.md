@@ -9,6 +9,14 @@ sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 
 apt install flatpak gnome-software-plugin-flatpak
 
+flatpak install flathub com.github.tchx84.Flatseal
+flatpak install flathub com.tencent.WeChat
+flatpak install flathub com.qq.QQ
+flatpak install flathub com.visualstudio.code
+flatpak install flathub ai.opencode.opencode
+flatpak install flathub com.github.gmg137.netease-cloud-music-gtk
+
+
 ```
 # 交换文件
 ```
