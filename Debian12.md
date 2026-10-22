@@ -39,6 +39,8 @@ flatpak install flathub com.github.gmg137.netease-cloud-music-gtk
 
 ```
 
+# 若要强制创建英文名称的目录，可以使用
+LC_ALL=C.UTF-8 xdg-user-dirs-update --force
 
 
 # 生产禁用Nouveau文件后更新
