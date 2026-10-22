@@ -7,6 +7,8 @@ gnome-software-plugin-flatpak   #Gnome
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 
+apt install flatpak gnome-software-plugin-flatpak
+
 ```
 # 交换文件
 ```
@@ -19,6 +21,14 @@ sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
     sudo sed -i '$a\/swapfile none swap defaults 0 0' /etc/fstab
     # sleep 5
     # sudo reboot
+
+# Arch wiki
+/sbin/mkswap -U clear --size 16G --file /swapfile
+/sbin/swapon /swapfile
+
+/etc/fstab
+/swapfile none swap defaults 0 0
+
 ```
 
 
@@ -39,6 +49,8 @@ sudo update-initramfs -u
 gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons-ng  gnome-shell-extension-gpaste 
 gnome-shell-extension-kimpanel #fcitx5的Gnome
 gnome-shell-extension-bluetooth-quick-connect #Gnome44不需要
+
+apt install gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons-ng  gnome-shell-extension-gpaste gnome-shell-extension-kimpanel gnome-console
 ```
 
 #NVIDIA
